@@ -1,0 +1,64 @@
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1,
+h2,
+h3 {
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 200px auto;
+    max-width: 700px;
+}
+
+#form-validacao label {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+
+#form-validacao input,
+#form-validacao button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    resize: none;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.mensagem{
+    display: none;
+}
+
+#mensagemPositiva,
+#mensagemNegativa {
+    display: none;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.mensagem #mensagemPositiva {
+    background-color: green;
+    color: #fff;
+}
+
+.mensagem #mensagemNegativa {
+    background-color: red;
+    color: #fff;
+}

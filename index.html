@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>Exercicio HTML JS</title>
+</head>
+<body>
+    <header>
+        <h1>Exercicio HTML JS</h1>
+    </header>
+    <div class="container">
+        <h2>Validação no JavaScript</h2>
+        <h3>Formulário será válido somente se número B for que o número A.</h3>
+        <div class="mensagem">
+            <p id="mensagemPositiva">Positivo</p>
+            <p id="mensagemNegativa">Negativo</p>
+        </div>
+        <form id="form-validacao">
+            <label for="numeroA" >Número A</label>
+            <input id="numeroA" type="number" required placeholder="Insira Numero A" index="1">
+            <label for="numeroB">Número B</label>
+            <input id="numeroB" type="number" required placeholder="Insira Numero B" index="2">
+            <button id="btnLimpar" type="submit" index="3">Validar</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
